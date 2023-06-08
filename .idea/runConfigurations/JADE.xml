@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="JADE" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="20" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="jade.Boot" />
+    <module name="mavenproject2" />
+    <option name="PROGRAM_PARAMETERS" value="-agents &quot;seller1:com.mycompany.mavenproject2.BookSellerAgent;seller2:com.mycompany.mavenproject2.BookSellerAgent;buyer1:com.mycompany.mavenproject2.BookBuyerAgent(Zamek)&quot; -gui" />
+    <selectedOptions>
+      <option name="environmentVariables" visible="false" />
+    </selectedOptions>
+    <option name="VM_PARAMETERS" value="-cp ./lib/jade.jar:./target/classes" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
